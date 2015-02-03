@@ -1,14 +1,14 @@
-# Ligth Django Tutorial
+# Ligthweight Django Tutorial
 
 Esse projeto tem como ideia divulgar uma ideologia, onde você não é obrigado, nem precisa se sentir 
 flustrado em ter sempre que usar as ferramentas de geração de código do django, sendo que você pode ser 
 livre para usar o modulo que precisar e escalar seu servidor enxudo, a partir de componentes do Django, 
 sendo utilizados de forma mais limpa possivel e tudo criado a mão, sem geração de codigo `django-admin.py startproject`
 
-### criamos a pasta do projeto
+###### criamos a pasta do projeto
 `mkdir ligthweigth && cd ligthweigth`
 
-### criar uma virtualenv
+###### criar uma virtualenv
 `virtualenv -p /usr/bin/python3 venv ligthweigth`
 
 ### Ativando a virtualenv
