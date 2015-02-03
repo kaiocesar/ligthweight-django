@@ -15,7 +15,11 @@ settings.configure(
 
 
 from django.conf.urls import url
+from django.core.wsgi import get_wsgi_application
 from django.http import HttpResponse
+
+
+application = get_wsgi_application()
 
 def index(response):
 	return HttpResponse('hello world')
